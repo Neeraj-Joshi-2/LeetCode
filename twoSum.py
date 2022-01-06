@@ -1,6 +1,5 @@
 def twoSum(nums,target):
         lst=[]
-        nums.sort()
         for i in range(len(nums)) :
             t=nums[i]
             l = i + 1
@@ -14,8 +13,6 @@ def twoSum(nums,target):
                     l=l+1
                     
                     
-
-
 l = [2,8,7,4]
 target = 9
 print(twoSum(l,target))
