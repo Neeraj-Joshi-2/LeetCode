@@ -16,3 +16,4 @@ def twoSum(nums,target):
 l = [2,8,7,4]
 target = 9
 print(twoSum(l,target))
+ 
