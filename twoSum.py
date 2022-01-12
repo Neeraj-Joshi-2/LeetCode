@@ -7,7 +7,7 @@ def twoSum(nums,target):
             while l < r :
                 if target - nums[l] == t :
                     lst.append(i)
-                    lst.append(l)
+                    lst.append(l) 
                     return lst 
                 else :
                     l=l+1
