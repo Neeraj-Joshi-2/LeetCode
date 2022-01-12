@@ -8,7 +8,7 @@ def twoSum(nums,target):
                 if target - nums[l] == t :
                     lst.append(i)
                     lst.append(l)
-                    return lst
+                    return lst 
                 else :
                     l=l+1
                     
