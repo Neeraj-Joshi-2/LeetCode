@@ -19,7 +19,7 @@ def maxArea(height):
                 x -= 1
             MAX = max(MAX, area)
         return MAX
-    
+     
 
 
 
