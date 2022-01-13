@@ -1,7 +1,4 @@
 class Solution:
-    # @param board, a 9x9 2D array
-    # Solve the Sudoku by modifying the input board in-place.
-    # Do not return any value.
     def solveSudoku(self, board):
         self.board = board
         self.solve()
@@ -51,3 +48,12 @@ class Solution:
                 if self.board[r][c] == ch:
                     return False
         return True
+    
+obj = Solution()
+board = [["5","3",".",".","7",".",".",".","."],["6",".",".","1","9","5",".",".","."],[".","9","8",".",".",".",".","6","."],["8",".",".",".","6",".",".",".","3"],["4",".",".","8",".","3",".",".","1"],["7",".",".",".","2",".",".",".","6"],[".","6",".",".",".",".","2","8","."],[".",".",".","4","1","9",".",".","5"],[".",".",".",".","8",".",".","7","9"]]
+for row in board :
+    print(row)
+obj.solveSudoku(board)
+print('\n')
+for row in board :
+    print(row)
