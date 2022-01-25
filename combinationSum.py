@@ -1,4 +1,4 @@
-class Solution:
+class Solution: 
     def combinationSum(self, candidates, target):
         res = [] 
         candidates.sort() 
