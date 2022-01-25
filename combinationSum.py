@@ -13,7 +13,7 @@ class Solution:
                 dfs(target-candidates[i], i, path+[candidates[i]])
         
         dfs(target, 0, [])
-        return res
+        return res 
     
 o = Solution()
 candidates = [2,3,5] 
