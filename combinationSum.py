@@ -15,7 +15,7 @@ class Solution:
         dfs(target, 0, [])
         return res 
     
-o = Solution()
+o = Solution() 
 candidates = [2,3,5] 
 target = 8 
 print(o.combinationSum(candidates,target))
