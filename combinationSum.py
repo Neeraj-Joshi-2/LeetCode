@@ -6,7 +6,7 @@ class Solution:
         def dfs(target, index, path): 
             if target < 0:
                 return  # backtracking
-            if target == 0:
+            if target == 0: 
                 res.append(path)
                 return 
             for i in range(index, len(candidates)):
