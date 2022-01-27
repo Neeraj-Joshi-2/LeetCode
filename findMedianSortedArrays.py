@@ -4,7 +4,7 @@ def findMedianSortedArrays(nums1, nums2):
             l.append(i)
         for i in nums2 : 
             l.append(i)
-        l.sort() 
+        l.sort()  
         n = len(l) 
         
         if n%2!=0 :
