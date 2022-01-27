@@ -22,3 +22,4 @@ nums1 = [1,2]
 nums2 = [3,4]
 findMedianSortedArrays(nums1, nums2)
  
+ 
