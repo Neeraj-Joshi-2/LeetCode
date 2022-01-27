@@ -10,7 +10,7 @@ def findMedianSortedArrays(nums1, nums2):
         if n%2!=0 :
             print('here')
             m = int(n/2) 
-            return l[m]
+            return l[m] 
         else :
             x = int(n/2)
             y = int(x-1)
