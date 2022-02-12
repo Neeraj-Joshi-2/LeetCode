@@ -7,7 +7,7 @@ class Solution:
             if target < 0:
                 return  # backtracking
             if target == 0:  
-                res.append(path) 
+                res.append(path)  
                 return  
             for i in range(index, len(candidates)):
                 dfs(target-candidates[i], i, path+[candidates[i]]) 
