@@ -3,7 +3,7 @@ class Solution:
         res = []   
         candidates.sort()   
           
-        def dfs(target, index, path):  
+        def dfs(target, index, path):   
             if target < 0:
                 return  # backtracking 
             if target == 0:  
