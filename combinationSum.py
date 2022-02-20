@@ -1,5 +1,5 @@
 class Solution:   
-    def combinationSum(self, candidates, target):    
+    def combinationSum(self, candidates, target):     
         res = []   
         candidates.sort()   
           
