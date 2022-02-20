@@ -5,7 +5,7 @@ class Solution:
           
         def dfs(target, index, path):   
             if target < 0:
-                return  # backtracking 
+                return  # backtracking  
             if target == 0:  
                 res.append(path)  
                 return  
