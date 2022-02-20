@@ -1,6 +1,6 @@
 class Solution:   
     def combinationSum(self, candidates, target):      
-        res = []   
+        res = []    
         candidates.sort()   
           
         def dfs(target, index, path):   
