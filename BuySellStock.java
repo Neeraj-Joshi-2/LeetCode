@@ -5,7 +5,7 @@ public class BuySellStock {
         while(right<prices.length){ 
             currentProfit = prices[right] - prices[left];    
             if(prices[left] < prices[right]){ 
-                profit = Math.max(currentProfit,profit) ;
+                profit = Math.max(currentProfit,profit) ; 
             }  
             else{ 
                 left = right ;
