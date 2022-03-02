@@ -1,5 +1,5 @@
 class Solution {
-    public boolean isSubsequence(String s, String t) {
+    public static boolean isSubsequence(String s, String t) {
         int a = s.length();
         int b = t.length();
         if(a==0){
@@ -17,4 +17,8 @@ class Solution {
         }
         return false ;
         }
+    public static void main(String[] args) {
+        String s = "", t = "ahbgdc";
+        System.out.println(isSubsequence(s, t));
+    }
     }
