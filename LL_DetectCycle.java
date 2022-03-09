@@ -9,7 +9,7 @@
  *     }
  * }
  */
-public class DetectCycleLinkedList {
+public class LL_DetectCycle {
     public boolean hasCycle(ListNode head) {
         HashSet<ListNode> set = new HashSet<ListNode>() ;
         while(head!=null){
