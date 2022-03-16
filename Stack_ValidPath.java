@@ -1,4 +1,4 @@
-class ValidPath {
+class Stack_ValidPath {
     public String simplifyPath(String path) {
         String[] paths = path.split("/");            
         Stack<String> st = new Stack<>();
