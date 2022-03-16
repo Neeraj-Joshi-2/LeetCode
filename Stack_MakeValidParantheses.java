@@ -1,4 +1,4 @@
-class MakeValidParantheses {
+class Stack_MakeValidParantheses {
     public String minRemoveToMakeValid(String s) {
         StringBuilder sb = new StringBuilder(s);
         Stack<Integer> st = new Stack<>();
