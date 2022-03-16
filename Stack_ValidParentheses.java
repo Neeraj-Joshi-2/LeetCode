@@ -1,4 +1,4 @@
-class ValidParentheses {
+class Stack_ValidParentheses {
     public boolean isValid(String s) {
         Stack<Character> stk = new Stack<Character>();  
         for(int i=0;i<s.length();i++){
