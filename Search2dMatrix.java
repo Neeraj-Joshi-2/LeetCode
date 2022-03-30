@@ -23,3 +23,28 @@ public boolean searchMatrix(int[][] matrix, int target) {
 	return false;
 }
 }
+
+
+// class Solution {
+//     public boolean searchMatrix(int[][] matrix, int target) {
+//         int row = matrix.length ;
+//         int column = matrix[0].length ;
+        
+//         int n = 0 ;
+//         while(n<row){
+//             if(target <= matrix[n][column-1]){
+//                 break ;
+//             }
+//             else{
+//                 n+=1 ;
+//             }
+//         }
+//         for(int i=0 ; i<column ; i++){
+//             if(n<row && matrix[n][i]==target){
+//                 return true ;
+//             }
+//         }
+        
+//         return false ;
+//     }
+// }
