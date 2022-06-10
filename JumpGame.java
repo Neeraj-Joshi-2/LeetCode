@@ -7,7 +7,7 @@ class JumpGame {
                 jumps++;
                 currentJumpEnd = farthest;
             }
-        }
+        } 
         return jumps;
     }
 }
