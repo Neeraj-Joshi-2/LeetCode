@@ -8,6 +8,6 @@ class JumpGame {
                 currentJumpEnd = farthest;
             }
         } 
-        return jumps;
+        return jumps; 
     }
 }
